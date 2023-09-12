@@ -20,4 +20,12 @@ Dwyer DJ, Belenky PA, Yang JH, MacDonald IC, Martell JD, Takahashi N, Chan CT, L
 * ggplot2 (ersion 3.4.3)
 * pcaMethods (version 1.92.0)
 * limma (version 3.56.2)
-  
+
+### Package Installation
+```R
+BiocManager::install("affy", force = T)
+BiocManager::install("affycoretools", force = T)
+BiocManager::install("affyPLM", force = T)
+BiocManager::install("GEOquery")
+BiocManager::install("pcaMethods")
+```
