@@ -38,17 +38,21 @@ BiocManager::install("pcaMethods")
 * Histogram and PCA plot was generated to observe distribution of each samples in the dataset
   
 ![PCA_Plot](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/d63710f1-989a-4f71-91ad-f8922f3e2e55)
+
 Fig : *__PCA Plot__*
 
 ![Density_Histogram_Affy Data](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/6c1bee14-547b-42ee-857a-0ce55bd671a8)
+
 Fig :*__Sample-wise histogram__*
 
 * Boxplots are used to visualize the distribution of expression values after normalisation.
 
 ![Unormalised_data_Boxplot](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/0f796865-54fd-4cac-890e-045d55b7953f)
+
 Fig : *__Before Normalisation__*
 
 ![RMA_norm_Boxplot](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/1c018810-f0d9-4d61-8af7-bf4752cc794d)
+
 Fig : *__After Normalisation__*
 
 ## Expression Estimates
@@ -66,21 +70,25 @@ Metadata related to the samples is generated and processed for analysis. This in
   * __Barplot:__ Visualises changes in FPKM values for the "mutS" gene across different treatment conditions.
     
 ![Barplot_Treatment_Effect_on_mutS](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/aa4dd8f5-db8d-4078-bc4e-cb46fe655f1d)
+
 Fig : *__FPKM changes for mutS gene across different treatment conditions (Bar plot)__*
 
   * __Density Plot:__ Shows the distribution of FPKM values for the "mutS" gene, with different colors representing treatment conditions.
     
 ![Density_Plot_muts_FPKM](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/031bca47-d5a3-46d9-9cd7-d97d4550be66)
+
 Fig : *__Distribution of FPKM values for the mutS gene across different treatment (Density Plot)__*
 
   * __Box Plot:__ Visualises the distribution of FPKM values for the "mutS" gene, again considering treatment conditions.
     
 ![Boxplot](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/3acbf51c-62e8-48ad-bb09-b6dc27dd1373)
+
 Fig : *__Distribution of FPKM values for the mutS gene across different treatment (Box Plot)__*
 
   * __Heatmap:__ Displays FPKM values for a set of selected genes (e.g., "mutS," "mrr," "ggt," etc.) across treatment conditions, using color gradients to represent expression levels.
     
 ![Heatmap_2](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/8082957e-559b-4e96-9e1c-2e2f408733ff)
+
 Fig : *__Expression levels of genes across treatment condition (Heatmap)__*
 
     
