@@ -35,16 +35,49 @@ BiocManager::install("pcaMethods")
 * Normalisation is essential to ensure that the data is comparable and suitable for downstream analysis.
 
 ## Exploratory Data Analysis (EDA)
-* Histogram was generated for each samples in the dataset
+* Histogram and PCA plot was generated to observe distribution of each samples in the dataset
+![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/28189e70-daf3-4e3a-ab94-f27e3715c33b)
+Fig : *__PCA Plot__*
 
 ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/853094e9-a21d-4281-b57c-bf3b4bfc36b7)
-Fig : Sample-wise histogram
+Fig :*__Sample-wise histogram__*
 
 * Boxplots are used to visualize the distribution of expression values after normalisation.
 
 ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/c6f862fc-8f69-43ac-af38-b89a7a6e09f5)
-Fig : Before Normalisation
+Fig : *__Before Normalisation__*
 
 ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/2993de31-1032-4e88-be0e-f4f4b5a1d669)
-Fig : After Normalisation
+Fig : *__After Normalisation__*
 
+## Expression Estimates
+The script extracts expression estimates from the normalized data, making it ready for further analysis.
+
+## Generating Metadata
+Metadata related to the samples is generated and processed for analysis. This includes information about genotype and treatment conditions.
+
+## Reshaping Expression Data
+* Expression data is reshaped to create a long-format dataset, making it suitable for visualization and analysis.
+* This reshaped data includes information about gene expression levels (FPKM) for specific genes and the corresponding treatment conditions.
+
+  ## Data Visualisation
+  Several types of data visualisations are performed
+  * __Barplot:__ Visualises changes in FPKM values for the "mutS" gene across different treatment conditions.
+    ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/37cfa3d4-f70b-4320-b6b9-71db61aade72)
+Fig : *__FPKM changes for mutS gene across different treatment conditions (Bar plot)__*
+
+  * __Density Plot:__ Shows the distribution of FPKM values for the "mutS" gene, with different colors representing treatment conditions.
+    ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/cb01da0d-80de-4969-8ef9-fd4e70f447c1)
+Fig : *__Distribution of FPKM values for the mutS gene across different treatment (Density Plot)__*
+
+  * __Box Plot:__ Visualises the distribution of FPKM values for the "mutS" gene, again considering treatment conditions.
+    ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/d59117ee-ecd4-4ec8-bbd2-8057632c8404)
+Fig : *__Distribution of FPKM values for the mutS gene across different treatment (Box Plot)__*
+
+  * __Heatmap:__ Displays FPKM values for a set of selected genes (e.g., "mutS," "mrr," "ggt," etc.) across treatment conditions, using color gradients to represent expression levels.
+    ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/0345844f-390c-4d7c-b884-c73d3bbb94ff)
+Fig : *__Expression levels of genes across treatment condition (Heatmap)__*
+
+    
+## Conclusion
+Overall, this script offers a comprehensive analysis and visualization pipeline for MicroArray data, enabling researchers to explore gene expression patterns and make meaningful biological inferences.
