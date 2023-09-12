@@ -28,8 +28,6 @@ BiocManager::install("affycoretools", force = T)
 BiocManager::install("affyPLM", force = T)
 BiocManager::install("GEOquery")
 BiocManager::install("pcaMethods")
-install.packages('heatmaply')
-
 
 ###################
 ## Load Packages ##
@@ -43,7 +41,6 @@ library('tidyverse') # version 2.0.0
 library('ggplot2') # version 3.4.3
 library('pcaMethods') # version 1.92.0
 library('limma') # version 3.56.2
-library('heatmaply') # version 1.4.2
 
 ###########################
 ## Set working directory ##
