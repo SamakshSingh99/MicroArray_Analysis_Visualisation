@@ -36,6 +36,7 @@ BiocManager::install("pcaMethods")
 
 ## Exploratory Data Analysis (EDA)
 * Histogram and PCA plot was generated to observe distribution of each samples in the dataset
+  
 ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/28189e70-daf3-4e3a-ab94-f27e3715c33b)
 Fig : *__PCA Plot__*
 
@@ -63,18 +64,22 @@ Metadata related to the samples is generated and processed for analysis. This in
   ## Data Visualisation
   Several types of data visualisations are performed
   * __Barplot:__ Visualises changes in FPKM values for the "mutS" gene across different treatment conditions.
+    
     ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/37cfa3d4-f70b-4320-b6b9-71db61aade72)
 Fig : *__FPKM changes for mutS gene across different treatment conditions (Bar plot)__*
 
   * __Density Plot:__ Shows the distribution of FPKM values for the "mutS" gene, with different colors representing treatment conditions.
+    
     ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/cb01da0d-80de-4969-8ef9-fd4e70f447c1)
 Fig : *__Distribution of FPKM values for the mutS gene across different treatment (Density Plot)__*
 
   * __Box Plot:__ Visualises the distribution of FPKM values for the "mutS" gene, again considering treatment conditions.
+    
     ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/d59117ee-ecd4-4ec8-bbd2-8057632c8404)
 Fig : *__Distribution of FPKM values for the mutS gene across different treatment (Box Plot)__*
 
   * __Heatmap:__ Displays FPKM values for a set of selected genes (e.g., "mutS," "mrr," "ggt," etc.) across treatment conditions, using color gradients to represent expression levels.
+    
     ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/0345844f-390c-4d7c-b884-c73d3bbb94ff)
 Fig : *__Expression levels of genes across treatment condition (Heatmap)__*
 
