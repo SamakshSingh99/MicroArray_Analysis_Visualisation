@@ -1,5 +1,5 @@
 # MicroArray_Analysis_Visualisation
-The following repository was created to understand the concepts of MicroArray data Analysis.
+This repository contains a script for performing MicroArray data analysis and visualization using R. The data used in this script is sourced from Gene Expression Omnibus (GEO) and is provided in .CEL file format (Affymetrix GeneChip).
 
 ## Data
 * Data was obtained from Gene Expression Omnibus database (__accession ID:__ GSE56133).
@@ -22,6 +22,7 @@ Dwyer DJ, Belenky PA, Yang JH, MacDonald IC, Martell JD, Takahashi N, Chan CT, L
 * limma (version 3.56.2)
 
 ### Package Installation
+Make sure to install the necessary packages.
 ```R
 BiocManager::install("affy", force = T)
 BiocManager::install("affycoretools", force = T)
@@ -29,3 +30,23 @@ BiocManager::install("affyPLM", force = T)
 BiocManager::install("GEOquery")
 BiocManager::install("pcaMethods")
 ```
+## Data Normalisation
+* The script performs two types of data normalisation: RMA (Robust Multi-array Average) and MAS5 (MicroArray Suite 5).
+* Normalisation is essential to ensure that the data is comparable and suitable for downstream analysis.
+
+## Exploratory Data Analysis (EDA)
+* Histogram was generated for each samples in the dataset
+
+![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/853094e9-a21d-4281-b57c-bf3b4bfc36b7)
+
+Fig : Sample-wise histogram
+
+*Boxplots are used to visualize the distribution of expression values after normalisation.
+![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/c6f862fc-8f69-43ac-af38-b89a7a6e09f5)
+
+Fig : Before Normalisation
+
+![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/2993de31-1032-4e88-be0e-f4f4b5a1d669)
+
+Fig : After Normalisation
+
