@@ -37,18 +37,18 @@ BiocManager::install("pcaMethods")
 ## Exploratory Data Analysis (EDA)
 * Histogram and PCA plot was generated to observe distribution of each samples in the dataset
   
-![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/28189e70-daf3-4e3a-ab94-f27e3715c33b)
+![PCA_Plot](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/d63710f1-989a-4f71-91ad-f8922f3e2e55)
 Fig : *__PCA Plot__*
 
-![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/853094e9-a21d-4281-b57c-bf3b4bfc36b7)
+![Density_Histogram_Affy Data](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/6c1bee14-547b-42ee-857a-0ce55bd671a8)
 Fig :*__Sample-wise histogram__*
 
 * Boxplots are used to visualize the distribution of expression values after normalisation.
 
-![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/c6f862fc-8f69-43ac-af38-b89a7a6e09f5)
+![Unormalised_data_Boxplot](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/0f796865-54fd-4cac-890e-045d55b7953f)
 Fig : *__Before Normalisation__*
 
-![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/2993de31-1032-4e88-be0e-f4f4b5a1d669)
+![RMA_norm_Boxplot](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/1c018810-f0d9-4d61-8af7-bf4752cc794d)
 Fig : *__After Normalisation__*
 
 ## Expression Estimates
@@ -65,22 +65,22 @@ Metadata related to the samples is generated and processed for analysis. This in
   Several types of data visualisations are performed
   * __Barplot:__ Visualises changes in FPKM values for the "mutS" gene across different treatment conditions.
     
-    ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/37cfa3d4-f70b-4320-b6b9-71db61aade72)
+![Barplot_Treatment_Effect_on_mutS](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/aa4dd8f5-db8d-4078-bc4e-cb46fe655f1d)
 Fig : *__FPKM changes for mutS gene across different treatment conditions (Bar plot)__*
 
   * __Density Plot:__ Shows the distribution of FPKM values for the "mutS" gene, with different colors representing treatment conditions.
     
-    ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/cb01da0d-80de-4969-8ef9-fd4e70f447c1)
+![Density_Plot_muts_FPKM](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/031bca47-d5a3-46d9-9cd7-d97d4550be66)
 Fig : *__Distribution of FPKM values for the mutS gene across different treatment (Density Plot)__*
 
   * __Box Plot:__ Visualises the distribution of FPKM values for the "mutS" gene, again considering treatment conditions.
     
-    ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/d59117ee-ecd4-4ec8-bbd2-8057632c8404)
+![Boxplot](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/3acbf51c-62e8-48ad-bb09-b6dc27dd1373)
 Fig : *__Distribution of FPKM values for the mutS gene across different treatment (Box Plot)__*
 
   * __Heatmap:__ Displays FPKM values for a set of selected genes (e.g., "mutS," "mrr," "ggt," etc.) across treatment conditions, using color gradients to represent expression levels.
     
-    ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/0345844f-390c-4d7c-b884-c73d3bbb94ff)
+![Heatmap_2](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/8082957e-559b-4e96-9e1c-2e2f408733ff)
 Fig : *__Expression levels of genes across treatment condition (Heatmap)__*
 
     
