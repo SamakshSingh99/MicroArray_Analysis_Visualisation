@@ -38,15 +38,13 @@ BiocManager::install("pcaMethods")
 * Histogram was generated for each samples in the dataset
 
 ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/853094e9-a21d-4281-b57c-bf3b4bfc36b7)
-
 Fig : Sample-wise histogram
 
-*Boxplots are used to visualize the distribution of expression values after normalisation.
-![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/c6f862fc-8f69-43ac-af38-b89a7a6e09f5)
+* Boxplots are used to visualize the distribution of expression values after normalisation.
 
+![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/c6f862fc-8f69-43ac-af38-b89a7a6e09f5)
 Fig : Before Normalisation
 
 ![image](https://github.com/SamakshSingh99/MicroArray_Analysis_Visualisation/assets/130667983/2993de31-1032-4e88-be0e-f4f4b5a1d669)
-
 Fig : After Normalisation
 
